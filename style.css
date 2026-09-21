@@ -1,0 +1,56 @@
+#H1{
+    color: darkblue;  /*apply colour to the text*/
+    font-size: 40px;  /*To change the font size*/
+    font-weight: bolder; /*How thick or bold the text*/
+    font-style: inherit; /*Change the writing style*/
+    text-decoration: underline;
+    
+}
+#P1{
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+    font-style:initial;
+    text-decoration: none;
+    
+}
+h3{
+    color: rgb(14, 14, 161);
+    font-size: x-large;
+    font-weight: 900;
+    font-style: inherit;
+    
+}
+
+ul{
+    color: rgb(30, 67, 189);
+    font-size: 19px;
+    font-weight: 700;
+    font-style: oblique;
+}
+#up{
+    color: rgb(3, 72, 199);
+}
+
+.card{
+    color: rgb(19, 97, 242);
+}
+tr{
+    color: rgb(64, 124, 235);
+}
+
+p{
+    color: rgb(40, 181, 228);
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.first{
+    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(8, 5, 27);
+    
+    
+}
