@@ -43,6 +43,8 @@ p{
     color: rgb(40, 181, 228);
     font-size: 17px;
     text-decoration: underline;
+    border: 1px solid;
+    padding: 3px;
 }
 
 .first{
@@ -51,6 +53,5 @@ p{
 }
 body{
     background-color: rgb(8, 5, 27);
-    
     
 }
