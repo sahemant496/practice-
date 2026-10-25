@@ -1,57 +1,50 @@
+body{
+    background-color: #fff21a;
+    color: #171717;
+}
 #H1{
-    color: #c3bef0;  /*apply colour to the text*/
-    font-size: 40px;  /*To change the font size*/
-    font-weight: bolder; /*How thick or bold the text*/
-    font-style: inherit; /*Change the writing style*/
-    text-decoration: underline;
-    
+     text-align: center;
+     font-size: 92px;
+     height: 100px;
+     font-family: "Arial Black", Gadget, sans-serif;
 }
 #P1{
-    color: #cca8e9;
-    font-size: larger;
-    font-weight: bold;
-    font-style:initial;
-    text-decoration: none;
-    
-}
-h3{
-    color: #c3bef0;
-    font-size: x-large;
-    font-weight: 900;
-    font-style: inherit;
-    
-}
-
-ul{
-    color: #c3bef0;
-    font-size: 19px;
-    font-weight: 700;
-    font-style: oblique;
-}
-#up{
-    color: #c3bef0;
-}
-
-.card{
-    color:#c3bef0;
-}
-tr{
-    color: #c3bef0 ;
-}
-
-p{
-    color: #cca8e9;
-    font-size: 17px;
+    text-align: center;
+    font-size: auto;
+    height: 100px;
+    font-family: "Lucida Console", Monaco, monospace;
     text-decoration: underline;
-    border: 1px solid;
-    padding: 3px;
+    color: #a66bff;
 }
-
-.first{
-    background-color:#cadefc;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-body{
-    background-color:#defcf9;
+.second {        
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid  #171717;
     
+}
+#h3{
+    text-align: center;
+    font-size: 70px;
+    height: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+ul{
+    font-size: 30px;
+    color: #a66bff;
+}
+table{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    color: #171717;
+}
+#p2{
+    text-align: center;
+    font-size: 30px;
+    height: 100px;
+    font-family: "Lucida Console", Monaco, monospace;
+    text-decoration: underline;
+    color: #a66bff;
 }
