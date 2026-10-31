@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    color:#d4ff3f;
+    
 }
 nav{
     width: 100%;
@@ -11,12 +11,16 @@ nav{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 100px;
+    padding: 15px 10px;
     background-color:#cbb3e8 ;
+    position: sticky;
+    
 }   
-h1{
+ nav h1{
     font-size: 45px;
     color:#e34234;
+    align-items: start;
+    
 }
 ul{
     width: 100%;
@@ -38,18 +42,46 @@ ul li a{
 ul li a:hover{
     color:#c91707;
 }
-p{
-    border: 2px solid #e34234; 
-    width: 50%;
-    font-size: 20px;
-    color:#e34234;
-    margin: 20px 0px;
+body{
+    background-color: #cbb3e8;
 }
-@media screen and (max-width: 768px){
-    nav{
-        padding: 15px 50px;
-    }
-    ul{
-        display: none;
-    }
+.main{
+    margin-top: 25vh;
+    padding: 10px;
+    color: #e34234;
+    height: 60px;  
+    align-content: center;
+      
+}
+
+.detail h1 {
+    font-size: 60px;
+    text-shadow: 0 0 5px #e34234;
+    transition: 0.5s;
+}
+
+.image{
+    float: right;
+    margin: 40px;
+    
+}
+.social a {
+    margin-top: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #c91707;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #c91707;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.social a:hover {
+    
+    color: #d4ff3f;
+    box-shadow: 0 0 10px #d4ff3f;
 }
