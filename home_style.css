@@ -46,7 +46,7 @@ body{
     background-color: #cbb3e8;
 }
 .main{
-    margin-top: 25vh;
+    margin-top: 20vh;
     padding: 10px;
     color: #e34234;
     height: 60px;  
@@ -54,17 +54,13 @@ body{
       
 }
 
-.detail h1 {
-    font-size: 60px;
+section  h1{
+    font-size: 50px;
     text-shadow: 0 0 5px #e34234;
     transition: 0.5s;
 }
 
-.image{
-    float: right;
-    margin: 40px;
-    
-}
+
 .social a {
     margin-top: 5px;
     display: inline-flex;
@@ -84,4 +80,11 @@ body{
     
     color: #d4ff3f;
     box-shadow: 0 0 10px #d4ff3f;
+}
+.image{
+    float : right;
+    margin: 2px;
+    height: 300px;
+    width: 350px;
+    padding: 10px;
 }
